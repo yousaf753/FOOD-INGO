@@ -2,11 +2,28 @@
 class Assets {
   Assets._();
 
+  static const String imagesApponment = 'assets/images/apponment.png';
+  static const String imagesDrawer = 'assets/images/drawer.png';
   static const String imagesFacebook = 'assets/images/facebook.png';
+  static const String imagesFeedback = 'assets/images/feedback.png';
+  static const String imagesFood = 'assets/images/food.png';
   static const String imagesGoogle = 'assets/images/google.png';
+  static const String imagesGroceries = 'assets/images/groceries.png';
+  static const String imagesHome = 'assets/images/home.png';
+  static const String imagesLocation = 'assets/images/location.png';
   static const String imagesLock = 'assets/images/lock.png';
-  static const String imagesLogo = 'assets/images/logotitle.png';
+  static const String imagesLogo = 'assets/images/logo.png';
+  static const String imagesLogotitle = 'assets/images/logotitle.png';
+  static const String imagesLogout = 'assets/images/logout.png';
+  static const String imagesNotification = 'assets/images/notification.png';
   static const String imagesOnway = 'assets/images/onway.jpg';
+  static const String imagesOrder = 'assets/images/order.png';
+  static const String imagesPayment = 'assets/images/payment.png';
+  static const String imagesProfile = 'assets/images/profile.png';
+  static const String imagesRestaurent = 'assets/images/restaurent.png';
+  static const String imagesSmith = 'assets/images/smith.png';
+  static const String imagesStar = 'assets/images/star.png';
+  static const String imagesStore = 'assets/images/store.png';
   static const String imagesTitle = 'assets/images/title.png';
   static const String imagesTwitter = 'assets/images/twitter.png';
   static const String imagesUser = 'assets/images/user.png';

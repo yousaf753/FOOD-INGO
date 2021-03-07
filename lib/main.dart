@@ -1,11 +1,26 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ap/Deliveryperson.dart';
+import 'package:flutter_ap/Paymentmethod.dart';
+import 'package:flutter_ap/QR.dart';
 import 'package:flutter_ap/Splash.dart';
+import 'package:flutter_ap/Tracking.dart';
+import 'package:flutter_ap/bobssignup.dart';
+import 'package:flutter_ap/carddetail.dart';
+import 'package:flutter_ap/cartdetail.dart';
+import 'package:flutter_ap/dashboard.dart';
+import 'package:flutter_ap/location.dart';
+import 'package:flutter_ap/notification.dart';
+import 'package:flutter_ap/product_profile.dart';
 import 'package:flutter_ap/profile.dart';
+import 'package:flutter_ap/store.dart';
 import 'package:flutter_ap/verify.dart';
 import 'Home.dart';
+import 'MYCart.dart';
 import 'SignUp.dart';
 import 'SignIn.dart';
+import 'admin.dart';
 import 'orders.dart';
+import 'ordershistory.dart';
 
 void main() {
   runApp(MyApp());
@@ -34,7 +49,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Home(),
+      home: dashboard(),
     );
   }
 }

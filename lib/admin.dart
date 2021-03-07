@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class profile extends StatelessWidget {
-  profile({
+class admin extends StatelessWidget {
+  admin({
     Key key,
   }) : super(key: key);
   @override
@@ -40,7 +40,7 @@ class profile extends StatelessWidget {
           Transform.translate(
             offset: Offset(40.0, 94.0),
             child: Text(
-              'John Smith',
+              'Admin',
               style: TextStyle(
                 fontFamily: 'Times New Roman',
                 fontSize: 15,
@@ -83,7 +83,7 @@ class profile extends StatelessWidget {
           Transform.translate(
             offset: Offset(109.0, 191.0),
             child: Text(
-              'Home',
+              'Dashboard',
               style: TextStyle(
                 fontFamily: 'Times New Roman',
                 fontSize: 20,
@@ -96,7 +96,7 @@ class profile extends StatelessWidget {
           Transform.translate(
             offset: Offset(109.0, 264.0),
             child: Text(
-              'Profile',
+              'Manage Profile',
               style: TextStyle(
                 fontFamily: 'Times New Roman',
                 fontSize: 20,
@@ -122,7 +122,7 @@ class profile extends StatelessWidget {
           Transform.translate(
             offset: Offset(109.0, 435.0),
             child: Text(
-              'My Order',
+              'Orders',
               style: TextStyle(
                 fontFamily: 'Times New Roman',
                 fontSize: 20,
@@ -135,7 +135,7 @@ class profile extends StatelessWidget {
           Transform.translate(
             offset: Offset(109.0, 522.0),
             child: Text(
-              'My Appointments',
+              'Manage Content',
               style: TextStyle(
                 fontFamily: 'Times New Roman',
                 fontSize: 20,
@@ -148,7 +148,7 @@ class profile extends StatelessWidget {
           Transform.translate(
             offset: Offset(103.0, 587.0),
             child: Text(
-              'Payment Methods',
+              'Manage Payment',
               style: TextStyle(
                 fontFamily: 'Times New Roman',
                 fontSize: 20,
@@ -161,7 +161,7 @@ class profile extends StatelessWidget {
           Transform.translate(
             offset: Offset(107.0, 657.0),
             child: Text(
-              'Feedback',
+              'Analytics',
               style: TextStyle(
                 fontFamily: 'Times New Roman',
                 fontSize: 20,
@@ -217,21 +217,6 @@ class profile extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(35.0, 498.0),
-            child:
-                // Adobe XD layer: 'appoinment' (shape)
-                Container(
-              width: 63.0,
-              height: 63.0,
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: const AssetImage('assets/images/apponment.png'),
-                  fit: BoxFit.fill,
-                ),
-              ),
-            ),
-          ),
-          Transform.translate(
             offset: Offset(21.0, 563.0),
             child:
                 // Adobe XD layer: 'payment' (shape)
@@ -247,21 +232,6 @@ class profile extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(34.0, 646.0),
-            child:
-                // Adobe XD layer: 'feedback' (shape)
-                Container(
-              width: 66.0,
-              height: 66.0,
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: const AssetImage('assets/images/feedback.png'),
-                  fit: BoxFit.fill,
-                ),
-              ),
-            ),
-          ),
-          Transform.translate(
             offset: Offset(301.0, 728.0),
             child:
                 // Adobe XD layer: 'logout' (shape)
@@ -271,6 +241,36 @@ class profile extends StatelessWidget {
               decoration: BoxDecoration(
                 image: DecorationImage(
                   image: const AssetImage('assets/images/logout.png'),
+                  fit: BoxFit.fill,
+                ),
+              ),
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(40.0, 498.0),
+            child:
+                // Adobe XD layer: 'edit (1)' (shape)
+                Container(
+              width: 54.0,
+              height: 57.0,
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: const AssetImage('assets/images/edit.png'),
+                  fit: BoxFit.fill,
+                ),
+              ),
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(38.0, 642.0),
+            child:
+                // Adobe XD layer: 'analytics' (shape)
+                Container(
+              width: 59.0,
+              height: 52.0,
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: const AssetImage('assets/images/analytic.png'),
                   fit: BoxFit.fill,
                 ),
               ),

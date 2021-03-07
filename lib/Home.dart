@@ -7,6 +7,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xffeacd0d),
       body: Stack(
         children: <Widget>[
           Transform.translate(
@@ -87,7 +88,7 @@ class Home extends StatelessWidget {
               height: 106.0,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(19.0),
-                color: const Color(0xffeacd0d),
+                color: const Color(0xffe2e290),
                 border: Border.all(width: 1.0, color: const Color(0xff707070)),
               ),
             ),
@@ -144,7 +145,7 @@ class Home extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(221.0, 409.0),
+            offset: Offset(231.0, 421.0),
             child:
                 // Adobe XD layer: 'groceries' (shape)
                 Container(
@@ -160,48 +161,48 @@ class Home extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(81.0, 493.0),
+            offset: Offset(81.0, 497.0),
             child: Text(
               'Food',
               style: TextStyle(
                 fontFamily: 'Times New Roman',
-                fontSize: 25,
+                fontSize: 20,
                 color: const Color(0xff080808),
               ),
               textAlign: TextAlign.left,
             ),
           ),
           Transform.translate(
-            offset: Offset(75.0, 639.0),
+            offset: Offset(75.0, 643.0),
             child: Text(
               'Stores',
               style: TextStyle(
                 fontFamily: 'Times New Roman',
-                fontSize: 25,
+                fontSize: 20,
                 color: const Color(0xff080808),
               ),
               textAlign: TextAlign.left,
             ),
           ),
           Transform.translate(
-            offset: Offset(230.0, 639.0),
+            offset: Offset(230.0, 643.0),
             child: Text(
               'Restaurents',
               style: TextStyle(
                 fontFamily: 'Times New Roman',
-                fontSize: 25,
+                fontSize: 20,
                 color: const Color(0xff080808),
               ),
               textAlign: TextAlign.left,
             ),
           ),
           Transform.translate(
-            offset: Offset(221.0, 492.0),
+            offset: Offset(240.0, 497.0),
             child: Text(
               'Groceries',
               style: TextStyle(
                 fontFamily: 'Times New Roman',
-                fontSize: 25,
+                fontSize: 20,
                 color: const Color(0xff080808),
               ),
               textAlign: TextAlign.left,
